@@ -1,0 +1,37 @@
+Länka javascript.  Separat javacsript fil o länkar med <script src>. Eller direkt i dokument med <script> 
+
+Objektet console. Felsöka kod. console.log
+
+nodeJS -program för att köra javascript. Terminal används ör att köra kod.
+
+Kommandon git:
+echo " # js " >> README.md   - Skapar fil med titel "JS".
+
+git init - Skapar en lokal databas
+
+git add README.md - Flyttar filen till "scenen".
+
+git commit -m "first commit" -  Skapar en version. I det här fallet första versionen.
+
+git remote add origin https.//github.com/blabla/js-lektion4.git - Länkar lokaldatabasen till remote databasen i github.
+
+git push -u origin master - Kopierar till remote databasen.
+
+variablar.
+
+let namn;   Deklarerar en variabel
+
+namn = "Tobias";  Tilldela variabeln ett värde. (Assign)
+
+let namn ="Tobias"; Initiera en varabel. (Deklarera och tilldela på samma gång)
+
+variablar får ej innehålla minustecken (-) eller punkt (.)
+variablar får ej använda reserverade nyckelord som exempelvis char,if,int,let
+let console = "TEST" - skriver över objektet.
+console.log("TEST") Error. Console.log is not a function.
+
+typen null:
+nothing = "" <- tom STRÄNG
+nothing = null TOM variabel 
+
+Javacsript är dynamisk. 
